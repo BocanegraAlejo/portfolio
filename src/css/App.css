@@ -1,0 +1,27 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    color: #fff;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.section--title {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
