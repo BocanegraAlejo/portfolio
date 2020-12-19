@@ -10,17 +10,17 @@ const NavBar = () => {
         <nav>
             <h3>LOGO</h3>
             <ul className="navbar">
-                <li className="opc-menu"><a href="!#">Sobre Mi</a></li>
-                <li className="opc-menu"><a href="!#">Servicios</a></li>
-                <li className="opc-menu"><a href="!#">Skills</a></li>
+                <li className="opc-menu"><a href="#sobremi">Sobre Mi</a></li>
+                <li className="opc-menu"><a href="#servicios">Servicios</a></li>
+                <li className="opc-menu"><a href="#skills">Skills</a></li>
                 <li className="opc-menu"><a href="!#">Portfolio</a></li>
                 <li className="opc-menu"><a href="!#">Contacto</a></li>
             </ul>
             <ul className="navbar redes-sociales">
-                <li  className="opc-menu"><a href="!#"><img className="icon" src={iconFace} alt="Facebook" /></a></li>
-                <li  className="opc-menu"><a href="!#"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
-                <li  className="opc-menu"><a href="!#"><img className="icon" src={iconLinke} alt="Linkedin" /></a></li>
-                <li  className="opc-menu"><a href="!#"><img className="icon" src={iconGit} alt="Github" /></a></li>
+                <li className="opc-menu"><a href="!#"><img className="icon" src={iconFace} alt="Facebook" /></a></li>
+                <li className="opc-menu"><a href="!#"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
+                <li className="opc-menu"><a href="!#"><img className="icon" src={iconLinke} alt="Linkedin" /></a></li>
+                <li className="opc-menu"><a href="!#"><img className="icon" src={iconGit} alt="Github" /></a></li>
             </ul>
         </nav>
      );

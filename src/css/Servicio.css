@@ -1,0 +1,24 @@
+.servicio {
+    padding: 10px;
+}
+
+.servicio img {
+    width: 70px;
+}
+
+.servicio--info {
+    text-align: left;
+}
+
+.servicio--info h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.servicio--info p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.align-img {
+    text-align: right;
+}

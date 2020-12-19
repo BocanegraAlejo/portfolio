@@ -3,7 +3,7 @@ import '../css/SobreMi.css';
 
 const SobreMi = () => {
     return ( 
-        <section className="section__sobreMi">
+        <section id="sobremi">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">

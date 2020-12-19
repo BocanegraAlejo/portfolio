@@ -3,7 +3,7 @@
 }
 
 h1,h2,h3,h4,h5 {
-    color: #fff;
+    color: #fafafa;
     
 }
 
@@ -11,16 +11,23 @@ a:visited {
     text-decoration: none;
 }
 
+section {
+    padding-top: 55px;
+    background: #06111E;
+    min-height: 330px;
+    width: 100%;
+    text-align: center;
+}
 .section--title {
-    margin-top: 55px;
+    
     margin-bottom: 30px;
     font-size: 35px;
-    color: #fff;
+    color: #fafafa;
     text-align: center;
 }
 
 p {
-    color: #fff;
+    color: #fafafa;
     font-weight: 300;
     font-size: 14px;
     text-align: center;
