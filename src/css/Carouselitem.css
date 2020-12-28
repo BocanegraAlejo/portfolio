@@ -1,0 +1,11 @@
+.carousel--item {
+    width: auto;
+    height: auto;
+    margin: 0 10px 0 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.carousel--item img {
+    border-radius: 15px;
+}

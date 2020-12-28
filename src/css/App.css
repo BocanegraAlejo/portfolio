@@ -1,5 +1,17 @@
+
 * {
     font-family: 'Poppins', sans-serif;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+.on {
+    display: block;
+
+}
+.off {
+    display: none;
 }
 
 h1,h2,h3,h4,h5 {

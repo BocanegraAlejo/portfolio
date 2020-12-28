@@ -1,0 +1,14 @@
+#portfolio {
+    padding-bottom: 55px;
+}
+
+.portfolio__carousel {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    white-space: nowrap;
+    overflow-y: hidden; 
+    overflow-x: auto;
+    scrollbar-color: #000;
+}
+

@@ -22,3 +22,10 @@
 .align-img {
     text-align: right;
 }
+
+@media screen and (max-width: 990px) {
+    .align-img {
+        text-align: center;
+    }
+
+}

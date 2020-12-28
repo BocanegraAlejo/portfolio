@@ -1,0 +1,39 @@
+footer {
+    background: #06111E;
+    width: 100%;
+   
+    
+}
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+footer .opc-menu {
+    margin-right: 25px;
+}
+
+footer .foot-redes{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+.copy {
+    margin-top: 8px;
+}
+
+
+@media screen and (max-width: 990px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .foot-redes {
+        margin: 0px auto 20px auto;
+        
+       
+    }
+    
+}

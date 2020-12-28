@@ -1,5 +1,5 @@
 header {
-    background: #121D29;
+    background:#121D29;
     width: 100%;
     height: 440px;
 }
@@ -13,7 +13,7 @@ header {
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 3px;
-    margin-top: 30px;
+    margin-top: 120px;
 }
 
 .contenido__header--title {
@@ -21,6 +21,21 @@ header {
 }
 .btn-contactame {
     font-weight: 500;
-    background: #FF6C2B;
+    background:#FF6C2B;
     padding: 15px 25px;
+}
+
+.btn-contactame:hover {
+    border: 2px solid #FF6C2B;
+    font-weight: 500;
+    background:#06111E;
+    padding: 15px 25px;
+}
+
+.contenedor__navbar-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+   width: 100%;
 }
