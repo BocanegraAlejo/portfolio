@@ -9,13 +9,16 @@ nav {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 20px;
+    
     
 }
-
+nav img {
+    width: 77px;
+}
 .navbar-custom {
     display: flex;
     list-style: none;
+    padding-top: 20px;
 }
 .opc-menu {
     margin-right: 25px;

@@ -17,7 +17,6 @@ const Header = () => {
                               'Desarrollador Front-End',
                               'Desarrollador Back-End',
                               'Desarrollador Full-Stack']}
-                              
                               typeSpeed={90}
                               backSpeed={50}
                               loop >

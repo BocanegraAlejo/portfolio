@@ -4,11 +4,16 @@ footer {
    
     
 }
+
+footer img {
+    width: 77px;
+}
 .footer-container {
     display: flex;
     flex-direction: row;
     padding-top: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 footer .opc-menu {
     margin-right: 25px;
