@@ -14,6 +14,7 @@ nav {
 }
 nav img {
     width: 77px;
+    max-height: 61px;
 }
 .navbar-custom {
     display: flex;
@@ -42,9 +43,13 @@ a:link {
 a:focus {
     color:#FF6C2B !important;
 }
-
+.activo {
+    color:#FF6C2B !important;
+    text-decoration: none;
+}
 a:hover {
     color: #FF6C2B !important;
+    cursor: pointer;
 }
 
 /* responsive menu */

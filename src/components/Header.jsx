@@ -1,10 +1,11 @@
 import React from 'react';
 import '../css/Header.css';
 import NavBar from './NavBar';
+import { Link, animateScroll as scroll } from "react-scroll";
 import Typed from 'react-typed';
 const Header = () => {
     return (
-        <header>
+        <header id="header">
            <NavBar />
            <div className="container">
                <div className="contenido__header">
@@ -22,7 +23,9 @@ const Header = () => {
                               loop >
                         </Typed>
                         </h1>
-                        <a className="btn-contactame" href="#contacto" >Contactame</a>
+                        <Link className="btn-contactame" to="contacto" smooth={true}
+                    offset={-70}
+                    duration={500} >Contactame</Link>
                      </div>
                      <div className="col-md-6">
 

@@ -14,78 +14,46 @@ const Skills = () => {
         <section id="skills">
             <div className="container">
                     <h3 className="section--title">Habilidades</h3>
-                    <div className="row">
-                        <div className="col-md-5">
+                    <div className="fila--habilidad row">
+                            <div className="col-md-1"></div>
                             <Skill
                                 titulo="HTML 5"
-                                porcentaje="100%"
                                 image={iconHTML}
                             />
-                            
-                        </div>
-                        <div className="col-md-2"></div>  
-                        <div className="col-md-5">
                             <Skill
                                 titulo="CSS 3" 
-                                porcentaje="85%"
                                 image={iconCSS}
                             />
-                        </div>  
-                    </div>
-                  
-                    <div className="row">
-                        <div className="col-md-5">
                             <Skill
-                                titulo="JS"
-                                porcentaje="90%"
+                                titulo="JAVASCRIPT"
                                 image={iconHTML}
                             /> 
-                        </div>
-                        <div className="col-md-2"></div>  
-                        <div className="col-md-5">
                             <Skill
-                                titulo="REACT"
-                                porcentaje="75%"
-                                image={iconREACT}
+                                    titulo="REACT"
+                                    image={iconREACT}
                             />
-                        </div>  
-                    </div>
-                    
-                    <div className="row">
-                        <div className="col-md-5">
-                            <Skill
-                                titulo="PHP"
-                                porcentaje="100%"
-                                image={iconPHP}
-                            /> 
-                        </div>
-                        <div className="col-md-2"></div>  
-                        <div className="col-md-5">
-                            <Skill
-                                titulo="NODE"
-                                porcentaje="60%"
-                                image={iconNODEJS}
-                            />
-                        </div>  
-                    </div>
-                  
-                    <div className="row">
-                        <div className="col-md-5">
-                            <Skill
-                                titulo="MYSQL"
-                                porcentaje="100%"
-                                image={iconMYSQL}
-                            /> 
-                        </div>
-                        <div className="col-md-2"></div>  
-                        <div className="col-md-5">
                             <Skill
                                 titulo="BOOTSTRAP"
-                                porcentaje="100%"
                                 image={iconBOOTSTRAP}
                             />
-                        </div>  
-                    </div>         
+                            <div className="col-md-1"></div>
+                    </div>
+                    <div className="fila--habilidad row">
+                        <div className="col-md-3"></div>
+                        <Skill
+                            titulo="PHP"
+                            image={iconPHP}
+                        />
+                        <Skill
+                            titulo="NODE"
+                            image={iconNODEJS}
+                        />
+                        <Skill
+                            titulo="MYSQL"
+                            image={iconMYSQL}
+                        />
+                        <div className="col-md-3"></div>
+                    </div>       
             </div>
         </section>
      );

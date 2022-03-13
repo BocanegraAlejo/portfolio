@@ -15,7 +15,7 @@ const Footer = () => {
 
                 <ul className="foot-redes">
                     <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/AleEzequiel09"><img className="icon" src={iconFace} alt="Facebook" /></a></li>
-                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/ale.ezequiell"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
+                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/alejo_ezequiel20"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
                     <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alejo-bocanegra"><img className="icon" src={iconLinke} alt="Linkedin" /></a></li>
                     <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://github.com/BocanegraAlejo"><img className="icon" src={iconGit} alt="Github" /></a></li>
                 </ul>
