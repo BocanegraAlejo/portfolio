@@ -14,10 +14,10 @@ const Footer = () => {
                 <p className="copy">&copy; Alejo Bocanegra. Todos los derechos reservados.</p>
 
                 <ul className="foot-redes">
-                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/AleEzequiel09"><img className="icon" src={iconFace} alt="Facebook" /></a></li>
-                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/alejo_ezequiel20"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
-                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/alejo-bocanegra"><img className="icon" src={iconLinke} alt="Linkedin" /></a></li>
-                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://github.com/BocanegraAlejo"><img className="icon" src={iconGit} alt="Github" /></a></li>
+                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://facebook.alejobocanegra.com/"><img className="icon" src={iconFace} alt="Facebook" /></a></li>
+                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://instagram.alejobocanegra.com/"><img className="icon" src={iconInsta} alt="Instagram" /></a></li>
+                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://linkedin.alejobocanegra.com/"><img className="icon" src={iconLinke} alt="Linkedin" /></a></li>
+                    <li className="opc-menu"><a target="_blank" rel="noreferrer" href="https://github.alejobocanegra.com/"><img className="icon" src={iconGit} alt="Github" /></a></li>
                 </ul>
             </div>
         </footer>
