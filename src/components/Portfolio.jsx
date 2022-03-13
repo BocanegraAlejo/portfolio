@@ -13,7 +13,7 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <div className="container">
-        <h3 className="section--title">Ultimos Trabajos</h3>
+        <h3 className="section--title">Últimos Trabajos</h3>
 
         <div className="portfolio__carousel">
           
