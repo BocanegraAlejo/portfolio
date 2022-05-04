@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="portfolio__carousel">
           
           <Carouselitem img={Portfolio7} />
-          <Carouselitem img={Portfolio8} />
+         
           <Carouselitem img={Portfolio1} />
           <Carouselitem img={Portfolio2} />
           <Carouselitem img={Portfolio3} />
